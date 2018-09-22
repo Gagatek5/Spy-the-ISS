@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MapVC.swift
 //  Spy The ISS
 //
 //  Created by Tom on 22/09/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MapVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

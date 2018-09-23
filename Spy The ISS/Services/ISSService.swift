@@ -33,8 +33,10 @@ class ISSServices {
                 return
             }
             let json = JSON(response.result.value!)
-            let ISS = ISSInfo.init(timestamp: json["timestamp"].int!, issPosition: ISSPosition.init(longitude:  Double(json["iss_position"]["longitude"].string!)!, latitude: Double(json["iss_position"]["latitude"].string!)!))
-            completionHandler(ISS, nil)
+            if let timestamp = json["timestamp"].int, let longitude = Double(json["iss_position"]["longitude"].string!), let latitude = Double(json["iss_position"]["latitude"].string!) {
+               let ISS = ISSInfo.init(timestamp: timestamp, issPosition: ISSPosition.init(longitude: longitude , latitude: latitude ))
+                completionHandler(ISS, nil)
+            }
         }
     }
     
@@ -51,7 +53,10 @@ class ISSServices {
             let json = JSON(response.result.value!)
             for i in 0...json["number"].int! - 1
             {
-                people.append(People.init(craft: json["people"][i]["craft"].string!, name: json["people"][i]["name"].string!))
+                if let name = json["people"][i]["name"].string, let craft = json["people"][i]["craft"].string {
+                    people.append(People.init(craft: craft, name: name))
+                }
+                
             }
             completionHandler(people, nil)
         }

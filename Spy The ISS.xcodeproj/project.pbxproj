@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26BAD78A4B4471C4D02FA9E8 /* Pods_Spy_The_ISS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3DADF5644B3974A582FC2B1 /* Pods_Spy_The_ISS.framework */; };
 		E2F3756C21566B8E00503DA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3756B21566B8E00503DA0 /* AppDelegate.swift */; };
-		E2F3756E21566B8E00503DA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3756D21566B8E00503DA0 /* ViewController.swift */; };
+		E2F3756E21566B8E00503DA0 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3756D21566B8E00503DA0 /* MapVC.swift */; };
 		E2F3757121566B8E00503DA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F3756F21566B8E00503DA0 /* Main.storyboard */; };
 		E2F3757321566B9000503DA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F3757221566B9000503DA0 /* Assets.xcassets */; };
 		E2F3757621566B9000503DA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F3757421566B9000503DA0 /* LaunchScreen.storyboard */; };
+		E2F3758121567C0200503DA0 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3758021567C0200503DA0 /* People.swift */; };
+		E2F3758321567DD700503DA0 /* ISSInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3758221567DD700503DA0 /* ISSInfo.swift */; };
+		E2F3758521567E0500503DA0 /* ISSPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F3758421567E0500503DA0 /* ISSPosition.swift */; };
+		E2F375882156855900503DA0 /* ISSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F375872156855900503DA0 /* ISSService.swift */; };
+		E2F3758A2156A23400503DA0 /* SaveCurrentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F375892156A23400503DA0 /* SaveCurrentStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		175C1AADEDA9E074BF2FDD11 /* Pods-Spy The ISS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spy The ISS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Spy The ISS/Pods-Spy The ISS.release.xcconfig"; sourceTree = "<group>"; };
+		A3DADF5644B3974A582FC2B1 /* Pods_Spy_The_ISS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Spy_The_ISS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F3756821566B8E00503DA0 /* Spy The ISS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spy The ISS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F3756B21566B8E00503DA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2F3756D21566B8E00503DA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2F3756D21566B8E00503DA0 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		E2F3757021566B8E00503DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2F3757221566B9000503DA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F3757521566B9000503DA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F3757721566B9000503DA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F3758021567C0200503DA0 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		E2F3758221567DD700503DA0 /* ISSInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSInfo.swift; sourceTree = "<group>"; };
+		E2F3758421567E0500503DA0 /* ISSPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSPosition.swift; sourceTree = "<group>"; };
+		E2F375872156855900503DA0 /* ISSService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ISSService.swift; sourceTree = "<group>"; };
+		E2F375892156A23400503DA0 /* SaveCurrentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveCurrentStatus.swift; sourceTree = "<group>"; };
+		ED9F83787ACED9E2C7EE3316 /* Pods-Spy The ISS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Spy The ISS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Spy The ISS/Pods-Spy The ISS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26BAD78A4B4471C4D02FA9E8 /* Pods_Spy_The_ISS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2159AA24E05D422041C1397E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3DADF5644B3974A582FC2B1 /* Pods_Spy_The_ISS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72ACAD31DBF1E4006F667E40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9F83787ACED9E2C7EE3316 /* Pods-Spy The ISS.debug.xcconfig */,
+				175C1AADEDA9E074BF2FDD11 /* Pods-Spy The ISS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2F3755F21566B8E00503DA0 = {
 			isa = PBXGroup;
 			children = (
 				E2F3756A21566B8E00503DA0 /* Spy The ISS */,
 				E2F3756921566B8E00503DA0 /* Products */,
+				72ACAD31DBF1E4006F667E40 /* Pods */,
+				2159AA24E05D422041C1397E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,51 @@
 		E2F3756A21566B8E00503DA0 /* Spy The ISS */ = {
 			isa = PBXGroup;
 			children = (
+				E2F375862156849700503DA0 /* Services */,
+				E2F3757F21567B8100503DA0 /* Models */,
+				E2F3757D21566BE700503DA0 /* Controllers */,
+				E2F3757E21566C6600503DA0 /* SupportFiles */,
+			);
+			path = "Spy The ISS";
+			sourceTree = "<group>";
+		};
+		E2F3757D21566BE700503DA0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3756D21566B8E00503DA0 /* MapVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E2F3757E21566C6600503DA0 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
 				E2F3756B21566B8E00503DA0 /* AppDelegate.swift */,
-				E2F3756D21566B8E00503DA0 /* ViewController.swift */,
 				E2F3756F21566B8E00503DA0 /* Main.storyboard */,
 				E2F3757221566B9000503DA0 /* Assets.xcassets */,
 				E2F3757421566B9000503DA0 /* LaunchScreen.storyboard */,
 				E2F3757721566B9000503DA0 /* Info.plist */,
 			);
-			path = "Spy The ISS";
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		E2F3757F21567B8100503DA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E2F3758021567C0200503DA0 /* People.swift */,
+				E2F3758221567DD700503DA0 /* ISSInfo.swift */,
+				E2F3758421567E0500503DA0 /* ISSPosition.swift */,
+				E2F375892156A23400503DA0 /* SaveCurrentStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E2F375862156849700503DA0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E2F375872156855900503DA0 /* ISSService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +142,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2F3757A21566B9000503DA0 /* Build configuration list for PBXNativeTarget "Spy The ISS" */;
 			buildPhases = (
+				A95D026F32779D017FA9DD60 /* [CP] Check Pods Manifest.lock */,
 				E2F3756421566B8E00503DA0 /* Sources */,
 				E2F3756521566B8E00503DA0 /* Frameworks */,
 				E2F3756621566B8E00503DA0 /* Resources */,
+				E4A971E8150D2CC7D13D9AAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +203,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A95D026F32779D017FA9DD60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Spy The ISS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A971E8150D2CC7D13D9AAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Spy The ISS/Pods-Spy The ISS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Spy The ISS/Pods-Spy The ISS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2F3756421566B8E00503DA0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F3756E21566B8E00503DA0 /* ViewController.swift in Sources */,
+				E2F3756E21566B8E00503DA0 /* MapVC.swift in Sources */,
+				E2F375882156855900503DA0 /* ISSService.swift in Sources */,
+				E2F3758521567E0500503DA0 /* ISSPosition.swift in Sources */,
+				E2F3758121567C0200503DA0 /* People.swift in Sources */,
 				E2F3756C21566B8E00503DA0 /* AppDelegate.swift in Sources */,
+				E2F3758A2156A23400503DA0 /* SaveCurrentStatus.swift in Sources */,
+				E2F3758321567DD700503DA0 /* ISSInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +405,12 @@
 		};
 		E2F3757B21566B9000503DA0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9F83787ACED9E2C7EE3316 /* Pods-Spy The ISS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGH34MU357;
-				INFOPLIST_FILE = "Spy The ISS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Spy The ISS/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +424,12 @@
 		};
 		E2F3757C21566B9000503DA0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175C1AADEDA9E074BF2FDD11 /* Pods-Spy The ISS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NGH34MU357;
-				INFOPLIST_FILE = "Spy The ISS/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Spy The ISS/SupportFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

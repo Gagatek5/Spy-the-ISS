@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct People {
+    
+    var craft: String
+    var name: String
+    
+}

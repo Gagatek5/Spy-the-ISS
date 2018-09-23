@@ -1,5 +1,5 @@
 //
-//  ISSposition.swift
+//  ISSPosition.swift
 //  Spy The ISS
 //
 //  Created by Tom on 22/09/2018.
@@ -10,7 +10,7 @@ import Foundation
 
 struct ISSPosition{
     
-    let longitude: Double
-    let latitude: Double
+    var longitude: Double
+    var latitude: Double
     
 }

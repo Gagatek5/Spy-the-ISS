@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct ISSInfo {
+    
+    var timestamp: Int
+    var issPosition: ISSPosition
+    
+}
